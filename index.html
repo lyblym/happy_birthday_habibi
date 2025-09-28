@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Хэппи бёздей</title>
+    <link rel="stylesheet" href="/CSS/main.css">
+</head>
+<body>
+
+    <nav>
+
+    <ul class="navbar">
+        <li><a href="#home">Тортик</a></li>
+        <li><a href="#message">С днем рождения</a></li>
+        <li><a href="#start">Начало</a></li>
+        <li><a href="#autumn">Осень</a></li>
+        <li><a href="#winter">Зима</a></li>
+        <li><a href="#spring">Весна</a></li>
+        <li><a href="#summer">Лето</a></li>
+        <li><a href="#flowers">Цветочки</a></li>
+        <li><a href="#cats">Котики</a></li>
+        <li><a href="#funny">Угарные мы</a></li>
+        <li><a href="#with-love-for-u">Сердечки</a></li>
+    </ul>
+</nav>
+
+    <section class="section home" id="home">
+        <div class="container">
+            <h1 class="title">Я тебя люблю ❤️</h1>
+            
+            <div class="cake-container">
+                <div class="plate"></div>
+                
+                <div class="cake-layer layer1"></div>
+                <div class="cake-layer layer2"></div>
+                <div class="cake-layer layer3"></div>
+                
+                <div class="cream"></div>
+                
+                <div class="candle">
+                    <div class="flame"></div>
+                </div>
+            </div>
+            
+            <div class="message" id="message">С днём рождения, мой родной</div>
+            
+            <button class="restart-btn" onclick="restartAnimation()">🔄 Restart</button>
+        </div>
+    </section>
+
+    <section class="section first-page" id="first-page">
+        <div class="container">
+            <div class="first-page2">
+                <div class="text">
+                    <h1>С Днём рождения, мое самое любимое родное солнышко ❤️ Тебе уже целых 18 лет, ты уже мой сладкий мужчина, на которого я всегда могу положиться и доверять. Спасибо тебе за все что ты делаешь для меня, любовь моя, ты всегда в моих глазах самый лучший ❤️ Хочу быть с тобой до конца жизни, люблю тебя бесконечно сильно ❤️❤️❤️</h1>
+                </div>
+
+                <div class="video-container">
+                    <video controls muted>
+                        <source src="../Assets/video_2025-09-12_23-57-55.mp4" type="video/mp4">
+                    </video>
+                </div>
+
+                <div class="image">
+                    <img src="" alt="Фото" style="display: none;">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="third-page" id="hearts">
+        <div class="heart">
+
+            <svg viewBox="0 0 600 552">
+                <path d="M300,107.77C284.68,55.67,239.76,0,162.31,0,64.83,0,0,82.08,0,171.71c0,.48,0,.95,0,1.43-.52,19.5,0,217.94,299.87,379.69v0l0,0,.05,0,0,0,0,0v0C600,391.08,600.48,192.64,600,173.14c0-.48,0-.95,0-1.43C600,82.08,535.17,0,437.69,0,360.24,0,315.32,55.67,300,107.77" fill="#ee5282"/>
+            </svg>
+
+            <script src='https://cdn.jsdelivr.net/npm/three@0.136.0/build/three.min.js'></script>
+            <script src='https://cdn.jsdelivr.net/npm/three@0.136.0/examples/js/controls/OrbitControls.js'></script>
+            <script src='https://unpkg.co/gsap@3/dist/gsap.min.js'></script><script  src="./script.js"></script>
+
+        </div>
+    </section>
+
+    <section class="forth-page">
+
+        <div class="our-moments">
+
+            <div class="box" id="start">
+                <div class="text">
+                    <h1>Наши моменты</h1>
+                    <p>Самое начало нашей любви</p>
+                </div>
+
+                <div class="images">
+                    <img src="/Assets/photo_2025-09-25_23-44-12.jpg" alt="">
+                    <img src="/Assets/photo_2025-09-25_23-44-10.jpg" alt="">
+                    <img src="/Assets/photo_2025-09-25_23-44-08.jpg" alt="">
+                    <img src="/Assets/photo_2025-09-25_23-44-06.jpg" alt="">
+                    <img src="/Assets/photo_2025-09-25_23-44-00.jpg" alt="">
+                    <img src="/Assets/photo_2025-09-25_23-43-58.jpg" alt="">
+                    <img src="/Assets/photo_2025-09-25_23-43-56.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="box" id="autumn">
+                <div class="text">
+                    <p>Мы осенью</p>
+                </div>
+
+                <div class="images">
+                    <img src="/Assets/photo_2025-09-25_23-43-30.jpg" alt="">
+                    <img src="/Assets/photo_2025-09-25_23-43-38.jpg" alt="">
+                    <img src="/Assets/photo_2025-09-25_23-43-35.jpg" alt="">
+                    <img src="/Assets/photo_2025-09-25_23-43-32.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="box" id="winter">
+                <div class="text">
+                    <p>Мы зимой</p>
+                </div>
+
+                <div class="images">
+                    <img src="/Assets/photo_2025-09-25_23-32-17.jpg" alt="">
+                    <img src="/Assets/photo_2025-09-25_23-32-02.jpg" alt="">
+                    <img src="/Assets/photo_2025-09-25_23-31-59.jpg" alt="">
+                    <img src="/Assets/photo_2025-09-25_23-31-57.jpg" alt="">
+                    <img src="/Assets/photo_2025-09-25_23-31-54.jpg" alt="">
+                    <img src="/Assets/photo_2025-09-25_23-31-52.jpg" alt="">
+                    <img src="/Assets/photo_2025-09-25_23-31-49.jpg" alt="">
+                    <img src="/Assets/photo_2025-09-25_23-31-46.jpg" alt="">
+                    <img src="/Assets/photo_2025-09-25_23-31-44.jpg" alt="">
+                    <img src="/Assets/photo_2025-09-25_23-31-41.jpg" alt="">
+                    <img src="/Assets/photo_2025-09-25_23-31-38.jpg" alt="">
+                    <img src="/Assets/photo_2025-09-25_23-31-36.jpg" alt="">
+                    <img src="/Assets/photo_2025-09-25_23-31-24.jpg" alt="">
+                    <img src="/Assets/photo_2025-09-25_23-31-07.jpg" alt="">
+                    <img src="/Assets/photo_2025-09-25_23-31-02.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="box" id="spring">
+                <div class="text">
+                    <p>Мы весной</p>
+                </div>
+
+                <div class="images">
+                    <img src="/Assets/photo_2025-09-25_23-30-53.jpg" alt="">
+                    <img src="/Assets/photo_2025-09-25_23-30-51.jpg" alt="">
+                    <img src="/Assets/photo_2025-09-25_23-30-44.jpg" alt="">
+                    <img src="/Assets/photo_2025-09-25_23-30-36.jpg" alt="">
+                    <img src="/Assets/photo_2025-09-25_23-28-58.jpg" alt="">
+                     <img src="/Assets/photo_2025-09-25_23-29-46.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="box" id="summer">
+                <div class="text">
+                    <p>Мы летом</p>
+                </div>
+
+                <div class="images">
+                    <img src="/Assets/photo_2025-09-25_23-29-01.jpg" alt="">
+                    <img src="/Assets/photo_2025-09-25_23-29-17.jpg" alt="">
+                    <img src="/Assets/photo_2025-09-25_23-29-31.jpg" alt="">
+                    <img src="/Assets/photo_2025-09-25_23-29-34.jpg" alt="">
+                    <img src="/Assets/photo_2025-09-25_23-29-41.jpg" alt="">
+                    <img src="/Assets/photo_2025-09-25_23-29-43.jpg" alt="">
+                    <img src="/Assets/photo_2025-09-25_23-29-49.jpg" alt="">
+                    <img src="/Assets/photo_2025-09-25_23-29-52.jpg" alt="">
+                    <img src="/Assets/photo_2025-09-25_23-28-21.jpg" alt="">
+                    <img src="/Assets/photo_2025-09-25_23-28-37.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="box" id="flowers">
+                <div class="text">
+                    <p>Цветочки которые ты мне дарил</p>
+                </div>
+
+                <div class="images">
+                    <img src="/Assets/flowers1.jpg" alt="">
+                    <img src="/Assets/flowers2.jpg" alt="">
+                    <img src="/Assets/flowers3.jpg" alt="">
+                    <img src="/Assets/flowers4.jpg" alt="">
+                    <img src="/Assets/flowers5.jpg" alt="">
+                    <img src="/Assets/flowers6.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="box" id="cats">
+                <div class="text">
+                    <p>Наши любимые котики</p>
+                </div>
+
+                <div class="images">
+                    <img src="/Assets/cat1.jpg" alt="">
+                    <img src="/Assets/cat2.jpg" alt="">
+                    <img src="/Assets/cat3.jpg" alt="">
+                    <img src="/Assets/cat4.jpg" alt="">
+                    <img src="/Assets/cat5.jpg" alt="">
+                    <img src="/Assets/cat6.jpg" alt="">
+                    <img src="/Assets/cat7.jpg" alt="">
+                </div>
+            </div>
+
+
+            <div class="box" id="funny">
+                <div class="text">
+                    <p>Угарные фоточки :)</p>
+                </div>
+
+                <div class="images">
+                    <img src="/Assets/funny1.jpg" alt="">
+                    <img src="/Assets/funny2.jpg" alt="">
+                    <img src="/Assets/funny3.jpg" alt="">
+                    <img src="/Assets/funny4.jpg" alt="">
+                    <img src="/Assets/funny5.jpg" alt="">
+                    <img src="/Assets/funny6.jpg" alt="">
+                    <img src="/Assets/funny7.jpg" alt="">
+                    <img src="/Assets/funny8.jpg" alt="">
+                    <img src="/Assets/funny9.jpg" alt="">
+                    <img src="/Assets/funny10.jpg" alt="">
+                    <img src="/Assets/funny11.jpg" alt="">
+                    <img src="/Assets/funny12.jpg" alt="">
+                    <img src="/Assets/funny13.jpg" alt="">
+                    <img src="/Assets/funny14.jpg" alt="">
+                    <img src="/Assets/funny15.jpg" alt="">
+                    <img src="/Assets/funny16.jpg" alt="">
+                    <img src="/Assets/funny17.jpg" alt="">
+                    <img src="/Assets/funny18.jpg" alt="">
+                    <img src="/Assets/funny19.jpg" alt="">
+                    <img src="/Assets/funny20.jpg" alt="">
+                    <img src="/Assets/funny21.jpg" alt="">
+                    <img src="/Assets/funny22.jpg" alt="">
+                    <img src="/Assets/funny23.jpg" alt="">
+                    <img src="/Assets/funny24.jpg" alt="">
+                    <img src="/Assets/funny25.jpg" alt="">
+                    <img src="/Assets/funny26.jpg" alt="">
+                    <img src="/Assets/funny27.jpg" alt="">
+                    <img src="/Assets/funny28.jpg" alt="">
+                    <img src="/Assets/funny29.jpg" alt="">
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="with-love-for-u" id="with-love-for-u">
+        <div class="container">
+            <div class="main-message">💕 С днем рождения, солнышко 💕</div>
+            <div class="sub-message">Ты у меня самый лучший❤️</div>
+            <button class="love-button" onclick="createBurst()">Нажми на меня💖</button>
+        </div>
+    </section>
+
+<script src="/JS/script.js"></script>
+</body>
+</html>
